@@ -1,0 +1,1 @@
+docker exec -i -t design-patterns-php7-instance bash
