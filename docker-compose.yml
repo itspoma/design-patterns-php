@@ -1,0 +1,12 @@
+app:
+  build: .
+  command: php -S 0.0.0.0:80 -t /app
+  volumes:
+    - ./src:/app
+  ports:
+    - "80:80"
+  links:
+    - php7
+
+php7:
+  build: images/php7
