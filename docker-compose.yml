@@ -1,0 +1,7 @@
+app:
+  build: images/php7
+  command: php -S 0.0.0.0:80 -t /app
+  volumes:
+    - ./src:/app
+  ports:
+    - "80:80"
