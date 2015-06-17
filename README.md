@@ -1,6 +1,7 @@
 #### to run
 ```bash
 bash$ docker-compose up -d
+bash$ open http://$(boot2docker ip)/phpinfo.php
 ```
 
 #### dependencies
